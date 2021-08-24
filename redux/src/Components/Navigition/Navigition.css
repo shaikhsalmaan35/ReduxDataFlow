@@ -1,0 +1,12 @@
+
+.navbar-dark .navbar-brand{
+    font-size: x-large;
+    color: tomato;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+}

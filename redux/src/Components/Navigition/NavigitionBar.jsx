@@ -1,13 +1,15 @@
 import React from "react";
-import { Navbar, Container, NavLink, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import "./Navigition.css";
 
 export const NavigitionBar = () => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <NavLink to="/">
-            <Navbar.Brand href="#home">Redux</Navbar.Brand>
+          <NavLink to="/home">
+            <Navbar.Brand href="/home">Redux</Navbar.Brand>
           </NavLink>
           <Nav className="me-auto">
             <NavLink to="/home">Home</NavLink>

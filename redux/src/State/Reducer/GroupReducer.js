@@ -3,14 +3,14 @@ const groupState = {
     {
       fname: "Aamer",
       lname: "sohel",
-      pic: "",
+      pic: "Assest/1.jpg",
       position: "UI Developer",
       techno: "React",
     },
     {
       fname: "Aadil",
       lname: "Hashmi",
-      pic: "",
+      pic: "Assest/2.jpg",
       position: "UI Developer",
       techno: "React",
     },

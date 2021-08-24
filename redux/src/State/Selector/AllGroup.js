@@ -1,1 +1,1 @@
-export const getAllGroup = (state) => state.groupReducers.groupReducers;
+export const getAllGroup = (state) => state.groupReducers.group;
